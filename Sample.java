@@ -1,7 +1,7 @@
 public class Sample
 {
 
-  public static void add()
+  public  void add()
   {
     int a=5, b=10, c;
     c = a + b;
@@ -10,7 +10,9 @@ public class Sample
 
 public static void main(String[] args)
 { 
-    add();
+   Sample s = new Sample();
+    
+   s. add();
 }
   
 }
